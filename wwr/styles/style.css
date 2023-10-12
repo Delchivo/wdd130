@@ -79,3 +79,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+#hero img {
+    width: 100%;
+}
