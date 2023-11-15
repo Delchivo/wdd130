@@ -276,4 +276,18 @@ nav {
     width: 100%;
     border: 5px solid #006466;
 }
+h2, h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-family: "Mooli";
+}
 
+.idaho-card, .utah-card, .arizona-card {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 30px;
+}
