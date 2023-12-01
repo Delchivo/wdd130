@@ -40,9 +40,8 @@ h2 {
 }
 .howdoistart-img {
     width: 100%;
-
 }
-.text {
+.textbox {
     display: grid;
     grid-column: 4/4;
     padding: 50px;
@@ -59,7 +58,7 @@ h2 {
     width: 100%;
 }
 .whats-img {
-    width: 65px;
+    width: 95px;
     display: list-item;
     padding-left: 35px;
 }
