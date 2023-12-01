@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-     <div id="homepage">
-    <header>
-        <a id="logo_link" href="index.html">
-        <img class="mylogo" src="images/mylogo.png" alt="My logo">
-        </a>
-    <nav>
-           <a href="index.html">Home</a>
-           <a href="html&css.html">HTML & CSS</a>
-           <a href="gettingideas.html">Getting Ideas</a>
-    </nav>
-     </div>  
+    <div id="homepage">
+   <header>
+   <nav>
+       <a id="logo_link" href="index.html">
+       <img class="mylogo" src="images/mylogo.png" alt="My logo">
+       </a>
+   
+          <a href="index.html">Home</a>
+          <a href="html&css.html">HTML & CSS</a>
+          <a href="gettingideas.html">Getting Ideas</a>
+   </nav>  
 </header>
 <h2>What is the difference?</h2>
 <main class="part1">
@@ -30,16 +30,47 @@
     <section class="part2">
         <h2>How to create an HTML file?</h2>
         <p> I will put images during the process to demonstrate the creation of the html Body, showing the new words and their meaning.</p>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+                <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/howdoistart.jpeg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/html.jpeg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/css.jpeg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
     </section>
     <section class="part3">
         <h2>How to create a CSS file?</h2>
         <p>Then I will inlcude all the information that a beginner need in order to create and start practicing. Is going to be the same thing with CSS and how that is create, beginners can be familiarized with them and start from scratch without getting confused.</p>
     </section>
 </main>
+</div> 
 <footer>
     <div class="media">
     <a href="https://facebook.com" target="_blank"></a>
@@ -47,7 +78,7 @@
     <a href="https://instagram.com" target="_blank"></a>
     <img src="images/instagram.png" alt="insta icon">
     <a href="https://whatsapp.com" target="_blank"></a>
-    <img src="images/whatsapp.png" alt="whats icon">
+    <img class="whats-img" src="images/whatsapp.png" alt="whats icon">
 </div>
     <p> <a href="missionandvision.html">Mission and Vision</a></p>
     <p><a href="contactus.html">Contact Us</a></p>
